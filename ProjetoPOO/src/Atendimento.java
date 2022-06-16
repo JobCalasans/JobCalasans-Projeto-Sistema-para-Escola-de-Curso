@@ -18,12 +18,12 @@ public class Atendimento {
 		
 	}
 	
-	//Traz alunos cadastrados
+	//Traz alunos cadastrados.
 	public List<Aluno> getAlunosCadastrados() {
 		return alunosCadastrados;
 	}
 
-	//Traz cursos cadastrados
+	//Traz cursos cadastrados.
 	public List<Curso> getCursosCadastrados() {
 		return cursosCadastrados;
 	}
