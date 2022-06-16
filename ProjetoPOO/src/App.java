@@ -5,14 +5,14 @@ public class App {
 	
     public static void main(String[] args) throws Exception {
     	
-    	//Variável utilizada para fazer o input da opção escolhida
+    	//Variável utilizada para fazer o input da opção escolhida.
     	int escolhaInt = 1;
         
-    	//Instância do objeto principal utilizado para fazer as ações e scanner para permitir input
+    	//Instância do objeto principal utilizado para fazer as ações e scanner para permitir input.
     	Atendimento atendimento = new Atendimento();
         Scanner scan = new Scanner(System.in);
         
-        //Laço de repetição que contém os menus
+        //Laço de repetição que contém os menus.
         while(escolhaInt > 0) {
         	
         	System.out.println("1 - Iniciar cadastramento");
